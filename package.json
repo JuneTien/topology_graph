@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://junetien.github.io/topology_graph/",
   "dependencies": {
+    "d3": "^3.5.17",
     "gh-pages": "^1.0.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
