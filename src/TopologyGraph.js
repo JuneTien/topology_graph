@@ -88,7 +88,7 @@ class TopologyGraph extends Component {
     return (
       <div>
         <p>This is Topology Graph !!!</p>
-        <div ref="mountPoint"/>
+        <div style={{height: '700px'}} ref="mountPoint"/>
       </div>
     );
   }
