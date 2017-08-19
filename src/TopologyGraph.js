@@ -29,16 +29,16 @@ class TopologyGraph extends Component {
     };
 
     const force = d3.layout.force()
-      .charge(-300) // power of repel
+      .charge(-500) // power of repel
       .linkDistance(100)
-      .size([700, 700])
+      .size([400, 400])
       .nodes(data.nodes)
       .links(data.links);
 
     const svg = d3.select(this.refs.mountPoint)
       .append('svg')
-      .attr('width', '100%')
-      .attr('height', '100%');
+      .attr('width', '400')
+      .attr('height', '400');
 
     const link = svg.selectAll('line')
       .data(data.links)
@@ -74,8 +74,6 @@ class TopologyGraph extends Component {
         .attr('y2', (d) => d.target.y);
 
       node
-        //.attr('cx', (d) => d.x) // position x-axis
-        //.attr('cy', (d) => d.y); // position y-axis
         .attr('transform', (d) => { return 'translate(' + d.x + ',' + d.y + ')'; });
     });
 
@@ -87,7 +85,6 @@ class TopologyGraph extends Component {
   render() {
     return (
       <div>
-        <p>This is Topology Graph !!!</p>
         <div style={{height: '700px'}} ref="mountPoint"/>
       </div>
     );

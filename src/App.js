@@ -9,9 +9,10 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React. Hello World</h2>
+          <h2>Welcome to React Demo</h2>
+          <h4>This graph is implemented by D3.js</h4>
         </div>
-        <div className="App-graph">
+        <div className="App-graph-section">
         <TopologyGraph/>
         </div>
       </div>
