@@ -12,8 +12,8 @@ class App extends Component {
           <h2>Welcome to React Demo</h2>
           <h4>This graph is implemented by D3.js</h4>
         </div>
-        <div className="App-graph-section">
-        <TopologyGraph/>
+        <div style={{height: '300px'}}>
+          <TopologyGraph/>
         </div>
       </div>
     );

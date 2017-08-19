@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin infinite 5s linear;
   height: 80px;
 }
 
@@ -17,14 +17,6 @@
 
 .App-intro {
   font-size: large;
-}
-
-.App-graph-section {
-  width: 400px;
-  height: 400px;
-  border-color: black;
-  border-style: solid;
-  margin: auto;
 }
 
 @keyframes App-logo-spin {
