@@ -13,6 +13,6 @@ The 'force()' function would be supported in the D3.js version 3.xx.xx.
 The version 4.xx.xx has not support the 'force()' function.
 ***
 Live demo step:    
-1. clone this repository
-2. \# npm install
-3. \# npm start
+1. <code>clone this repository</code> 
+2. <code>npm install</code>  
+3. <code>npm start</code>
