@@ -1,7 +1,9 @@
 {
   "name": "topology_graph",
   "version": "0.1.0",
+  "description": "Implementing the D3.js force layout by React component",
   "private": true,
+  "author": "JuneTien",
   "homepage": "https://junetien.github.io/topology_graph/",
   "dependencies": {
     "d3": "^3.5.17",
