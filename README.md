@@ -1,4 +1,4 @@
-# Topology Graph
+# Topology Graph  [![Build Status](https://travis-ci.org/JuneTien/topology_graph.svg?branch=master)](https://travis-ci.org/JuneTien/topology_graph)
 #### Demo Site: https://junetien.github.io/topology_graph/
 ***
 #### 
